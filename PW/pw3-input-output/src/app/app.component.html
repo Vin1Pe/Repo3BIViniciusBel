@@ -1,0 +1,8 @@
+<app-text-overflow [titulo]="'Aula sobre input'"
+                  [texto]="'Sem criatividade para elaborar um texto'"
+                  [clip]="false"></app-text-overflow>
+
+<app-aleatorio [min] =1 [max]=10
+  (resultado)="processar($event)"
+></app-aleatorio>
+{{resultado}}
